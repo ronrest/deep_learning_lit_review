@@ -44,6 +44,12 @@ Image of how segnet does upsampling (taken from [Badrinarayanan et al 2015][segn
 - Small model taking up 83MB of disk space (accordin to [Badrinarayanan et al 2015 p.13][segnet])
 
 
+[Paszke et al 2016's Enet][enet]
+- ENet (efficient neural network)
+- ENet is up to 18× faster, requires 75× less FLOPs, has 79× less parameters, and provides similar or better accuracy to existing models.
+- [Caffe implementation on Github](https://github.com/TimoSaemann/ENet)
+
+
 ## Comparing Models
 
 Computational resources of different models. Table taken from [Badrinarayanan et al 2015 p.13][segnet]
@@ -67,12 +73,15 @@ DeconvNet           | 474.65    | 602.15 | 9731 | 1872 | 877
     - J. Long, E. Shelhamer, and T. Darrell, "Fully convolutional networks for semantic segmentation", 2014
 - [Noh et al 2015][deconvnet]
     - H. Noh, S. Hong, and B. Han, "Learning deconvolution network for semantic segmentation", 2015
+- [Paszke et al 2016][enet]
+    - Adam Paszke, Abhishek Chaurasia, Sangpil Kim, Eugenio Culurciello, "ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation", 2016
 - [Ronneberger et al 2015's U-net][unet]
     - Olaf Ronneberger, Philipp Fischer, Thomas Brox: "U-Net: Convolutional Networks for Biomedical Image Segmentation", 2015
 
 
 [deconvnet]: https://arxiv.org/abs/1505.04366
 [deeplab]: https://arxiv.org/abs/1412.7062
+[enet]: https://arxiv.org/abs/1606.02147
 [fcn]: https://arxiv.org/abs/1411.4038
 [segnet]: https://arxiv.org/abs/1511.00561
 [unet]: https://arxiv.org/abs/1505.04597
