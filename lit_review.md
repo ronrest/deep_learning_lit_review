@@ -50,6 +50,11 @@ Image of how segnet does upsampling (taken from [Badrinarayanan et al 2015][segn
 - [Caffe implementation on Github](https://github.com/TimoSaemann/ENet)
 
 
+[Zhao et al 2017][icnet]
+
+[Romera et al 2017][romera2017]
+
+
 ## Comparing Models
 
 Computational resources of different models. Table taken from [Badrinarayanan et al 2015 p.13][segnet]
@@ -75,13 +80,21 @@ DeconvNet           | 474.65    | 602.15 | 9731 | 1872 | 877
     - H. Noh, S. Hong, and B. Han, "Learning deconvolution network for semantic segmentation", 2015
 - [Paszke et al 2016][enet]
     - Adam Paszke, Abhishek Chaurasia, Sangpil Kim, Eugenio Culurciello, "ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation", 2016
+- [Romera et al 2017][romera2017]
+    - Eduardo Romera, Jose M. Alvarez, Luis M. Bergasa1 and Roberto Arroyo: "Efficient ConvNet for Real-time Semantic Segmentation", 2017
 - [Ronneberger et al 2015's U-net][unet]
     - Olaf Ronneberger, Philipp Fischer, Thomas Brox: "U-Net: Convolutional Networks for Biomedical Image Segmentation", 2015
+- [Zhao et al 2017][icnet]
+    - Hengshuang Zhao, Xiaojuan Qi, Xiaoyong Shen, Jianping Shi, Jiaya Jia: "ICNet for Real-Time Semantic Segmentation on High-Resolution Images", 2017
+
+
 
 
 [deconvnet]: https://arxiv.org/abs/1505.04366
 [deeplab]: https://arxiv.org/abs/1412.7062
 [enet]: https://arxiv.org/abs/1606.02147
 [fcn]: https://arxiv.org/abs/1411.4038
+[romera2017]: http://www.robesafe.uah.es/personal/eduardo.romera/pdfs/Romera17iv.pdf
 [segnet]: https://arxiv.org/abs/1511.00561
 [unet]: https://arxiv.org/abs/1505.04597
+[icnet]: https://arxiv.org/abs/1704.08545
