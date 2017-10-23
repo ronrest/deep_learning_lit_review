@@ -3,6 +3,7 @@
 **TODO** links and descriptions for the datasets
 
 - Pascal VOC
-- Camvid
+- [CamVid](http://web4.cs.ucl.ac.uk/staff/g.brostow/MotionSegRecData/)
+- [Citiscapes](https://www.cityscapes-dataset.com/contact/)
 - Coco
 - Sisi
