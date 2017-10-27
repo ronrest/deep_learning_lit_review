@@ -54,6 +54,10 @@ Image of how segnet does upsampling (taken from [Badrinarayanan et al 2015][segn
 
 [Romera et al 2017][romera2017]
 
+[Romera et al 2017b's ERFNet][erfnet]
+- TODO: Add link to erfnet. Papaer to be published in December 2017.
+- Look at Romeras website for the link. 
+
 
 ## Comparing Models
 
