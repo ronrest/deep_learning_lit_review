@@ -52,6 +52,7 @@ Image of how segnet does upsampling (taken from [Badrinarayanan et al 2015][segn
 - Like Segnet, it uses unpooling operation that uses the indices from the downsampling maxpool layers.
 
 [Zhao et al 2017][icnet]
+- TODO: Add description
 
 
 [Romera et al 2017a][erfnet_pre] and [Romera et al 2017b's ERFNet][erfnet]
