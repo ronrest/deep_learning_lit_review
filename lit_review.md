@@ -47,6 +47,9 @@ Image of how segnet does upsampling (taken from [Badrinarayanan et al 2015][segn
 [Paszke et al 2016's Enet][enet]
 - ENet (efficient neural network)
 - ENet is up to 18× faster, requires 75× less FLOPs, has 79× less parameters, and provides similar or better accuracy to existing models.
+- Makes use of Residual Network Module (bottleneck version).
+- Makes use of a downsamplicg block on first layer that is inspired by inception module. contains two branches of downsampling operations (maxpool, and conv with stride 2), that then get concatenated.
+- Like Segnet, it uses unpooling operation that uses the indices from the downsampling maxpool layers.
 
 [Zhao et al 2017][icnet]
 
