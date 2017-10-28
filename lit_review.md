@@ -47,8 +47,6 @@ Image of how segnet does upsampling (taken from [Badrinarayanan et al 2015][segn
 [Paszke et al 2016's Enet][enet]
 - ENet (efficient neural network)
 - ENet is up to 18× faster, requires 75× less FLOPs, has 79× less parameters, and provides similar or better accuracy to existing models.
-- [Caffe implementation on Github](https://github.com/TimoSaemann/ENet)
-
 
 [Zhao et al 2017][icnet]
 
