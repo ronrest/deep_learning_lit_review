@@ -53,11 +53,18 @@ Image of how segnet does upsampling (taken from [Badrinarayanan et al 2015][segn
 
 [Zhao et al 2017][icnet]
 
-[Romera et al 2017][romera2017]
 
-[Romera et al 2017b's ERFNet][erfnet]
-- TODO: Add link to erfnet. Papaer to be published in December 2017.
-- Look at Romeras website for the link. 
+[Romera et al 2017a][erfnet_pre] and [Romera et al 2017b's ERFNet][erfnet]
+
+- Heavily inspired by ENet architecture.
+- Makes use of residual network modules (Non-Bottleneck version).
+- The residual modules make use of Factorized Convolutional layers to number of parameters, increase speed, whilst preserving performance.
+- Some of the residual blocks make use of dilated convolutions, to provide bigger field of view context without requiring as many downsampling operations.
+- Uses similar downsampling block as used by ENet (in turn inspired by inception module), that contains two branches of downsampling operations (maxpool, and conv with stride 2), that then get concatenated.
+- Unlike ENet, it does not use unpooling layer for upsampling. It uses a fractionally strided convolution.
+- Not quite as efficient as ENet, but it is more accurate.
+- Efficient architecture that can run in real time, whilst being competitive against the most accurate models.
+- It can train quite comfortably on a laptop without GPU.
 
 
 ## Comparing Models
@@ -85,19 +92,26 @@ DeconvNet           | 474.65    | 602.15 | 9731 | 1872 | 877
     - H. Noh, S. Hong, and B. Han, "Learning deconvolution network for semantic segmentation", 2015
 - [Paszke et al 2016][enet]
     - Adam Paszke, Abhishek Chaurasia, Sangpil Kim, Eugenio Culurciello, "ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation", 2016
-- [Romera et al 2017][romera2017]
-    - Eduardo Romera, Jose M. Alvarez, Luis M. Bergasa1 and Roberto Arroyo: "Efficient ConvNet for Real-time Semantic Segmentation", 2017
+
+- [Romera et al 2017a][erfnet_pre]
+    - E. Romera, J. M. Alvarez, L. M. Bergasa and R. Arroyo, 2017: Efficient ConvNet for Real-time Semantic Segmentation", , IEEE Intelligent Vehicles Symposium (IV), pp. 1789-1794, Redondo Beach (California, USA), June 2017
+
+- [Romera et al 2017b's ERFNet][erfnet]
+    - E. Romera, J. M. Alvarez, L. M. Bergasa and R. Arroyo: ERFNet: Efficient Residual Factorized ConvNet for Real-time Semantic Segmentation, Transactions on Intelligent Transportation Systems (T-ITS), December 2017
+
 - [Ronneberger et al 2015's U-net][unet]
     - Olaf Ronneberger, Philipp Fischer, Thomas Brox: "U-Net: Convolutional Networks for Biomedical Image Segmentation", 2015
+
 - [Zhao et al 2017][icnet]
     - Hengshuang Zhao, Xiaojuan Qi, Xiaoyong Shen, Jianping Shi, Jiaya Jia: "ICNet for Real-Time Semantic Segmentation on High-Resolution Images", 2017
-
 
 
 
 [deconvnet]: https://arxiv.org/abs/1505.04366
 [deeplab]: https://arxiv.org/abs/1412.7062
 [enet]: https://arxiv.org/abs/1606.02147
+[erfnet_pre]: http://www.robesafe.uah.es/personal/eduardo.romera/pdfs/Romera17iv.pdf
+[erfnet]: http://www.robesafe.uah.es/personal/eduardo.romera/pdfs/Romera17tits.pdf
 [fcn]: https://arxiv.org/abs/1411.4038
 [romera2017]: http://www.robesafe.uah.es/personal/eduardo.romera/pdfs/Romera17iv.pdf
 [segnet]: https://arxiv.org/abs/1511.00561
