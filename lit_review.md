@@ -59,7 +59,7 @@ Image of how segnet does upsampling (taken from [Badrinarayanan et al 2015][segn
 
 - Heavily inspired by ENet architecture.
 - Makes use of residual network modules (Non-Bottleneck version).
-- The residual modules make use of Factorized Convolutional layers to number of parameters, increase speed, whilst preserving performance.
+- The residual modules make use of Factorized Convolutional layers to reduce number of parameters and increase efficiency, whilst preserving performance.
 - Some of the residual blocks make use of dilated convolutions, to provide bigger field of view context without requiring as many downsampling operations.
 - Uses similar downsampling block as used by ENet (in turn inspired by inception module), that contains two branches of downsampling operations (maxpool, and conv with stride 2), that then get concatenated.
 - Unlike ENet, it does not use unpooling layer for upsampling. It uses a fractionally strided convolution.
