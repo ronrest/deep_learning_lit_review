@@ -93,19 +93,14 @@ DeconvNet           | 474.65    | 602.15 | 9731 | 1872 | 877
     - H. Noh, S. Hong, and B. Han, "Learning deconvolution network for semantic segmentation", 2015
 - [Paszke et al 2016][enet]
     - Adam Paszke, Abhishek Chaurasia, Sangpil Kim, Eugenio Culurciello, "ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation", 2016
-
 - [Romera et al 2017a][erfnet_pre]
     - E. Romera, J. M. Alvarez, L. M. Bergasa and R. Arroyo, 2017: Efficient ConvNet for Real-time Semantic Segmentation", , IEEE Intelligent Vehicles Symposium (IV), pp. 1789-1794, Redondo Beach (California, USA), June 2017
-
-- [Romera et al 2017b's ERFNet][erfnet]
+- [Romera et al 2017b][erfnet]
     - E. Romera, J. M. Alvarez, L. M. Bergasa and R. Arroyo: ERFNet: Efficient Residual Factorized ConvNet for Real-time Semantic Segmentation, Transactions on Intelligent Transportation Systems (T-ITS), December 2017
-
-- [Ronneberger et al 2015's U-net][unet]
+- [Ronneberger et al 2015][unet]
     - Olaf Ronneberger, Philipp Fischer, Thomas Brox: "U-Net: Convolutional Networks for Biomedical Image Segmentation", 2015
-
 - [Zhao et al 2017][icnet]
     - Hengshuang Zhao, Xiaojuan Qi, Xiaoyong Shen, Jianping Shi, Jiaya Jia: "ICNet for Real-Time Semantic Segmentation on High-Resolution Images", 2017
-
 
 
 [deconvnet]: https://arxiv.org/abs/1505.04366
