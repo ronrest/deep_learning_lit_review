@@ -44,6 +44,13 @@ Image of how segnet does upsampling (taken from [Badrinarayanan et al 2015][segn
 - Small model taking up 83MB of disk space (accordin to [Badrinarayanan et al 2015 p.13][segnet])
 
 
+
+
+[Yu and Koltun 2015, Multi-Scale Context Aggregation by Dilated Convolutions][yu_koltun_2015]
+- Uses Dilated convolutions.
+- Builds a new architecure designed right from the beginning to be used specifically for segmentation, and not classification.
+
+
 [Paszke et al 2016's Enet][enet]
 - ENet (efficient neural network)
 - ENet is up to 18× faster, requires 75× less FLOPs, has 79× less parameters, and provides similar or better accuracy to existing models.
@@ -99,6 +106,8 @@ DeconvNet           | 474.65    | 602.15 | 9731 | 1872 | 877
     - E. Romera, J. M. Alvarez, L. M. Bergasa and R. Arroyo: ERFNet: Efficient Residual Factorized ConvNet for Real-time Semantic Segmentation, Transactions on Intelligent Transportation Systems (T-ITS), December 2017
 - [Ronneberger et al 2015][unet]
     - Olaf Ronneberger, Philipp Fischer, Thomas Brox: "U-Net: Convolutional Networks for Biomedical Image Segmentation", 2015
+- [Yu and Koltun 2015][yu_koltun_2015]
+    - Fisher Yu, Vladlen Koltun, 2015: Multi-Scale Context Aggregation by Dilated Convolutions
 - [Zhao et al 2017][icnet]
     - Hengshuang Zhao, Xiaojuan Qi, Xiaoyong Shen, Jianping Shi, Jiaya Jia: "ICNet for Real-Time Semantic Segmentation on High-Resolution Images", 2017
 
@@ -109,7 +118,8 @@ DeconvNet           | 474.65    | 602.15 | 9731 | 1872 | 877
 [erfnet_pre]: http://www.robesafe.uah.es/personal/eduardo.romera/pdfs/Romera17iv.pdf
 [erfnet]: http://www.robesafe.uah.es/personal/eduardo.romera/pdfs/Romera17tits.pdf
 [fcn]: https://arxiv.org/abs/1411.4038
+[icnet]: https://arxiv.org/abs/1704.08545
 [romera2017]: http://www.robesafe.uah.es/personal/eduardo.romera/pdfs/Romera17iv.pdf
 [segnet]: https://arxiv.org/abs/1511.00561
 [unet]: https://arxiv.org/abs/1505.04597
-[icnet]: https://arxiv.org/abs/1704.08545
+[yu_koltun_2015]: https://arxiv.org/abs/1511.07122
