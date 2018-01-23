@@ -19,7 +19,9 @@ G. Larsson, M. Maire, G. Shakhnarovich, 2016, FractalNet: Ultra-Deep Neural Netw
 The below diagrams are taken from [here](http://people.cs.uchicago.edu/~larsson/fractalnet/)
 
 **fractalnet module**:
+
 ![Image of fractalnet module (taken from )](ZZZ_IMAGES_DIR/fractalnet.png)
 
 **droppath**:
+
 ![Image of droppath)](ZZZ_IMAGES_DIR/droppath.png)
