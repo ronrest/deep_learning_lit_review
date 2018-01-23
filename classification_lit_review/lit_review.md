@@ -1,4 +1,10 @@
 
+## VGG
+
+## Inception
+
+## Resnet
+
 
 ## Fractalnet
 G. Larsson, M. Maire, G. Shakhnarovich, 2016, FractalNet: Ultra-Deep Neural Networks without Residuals
