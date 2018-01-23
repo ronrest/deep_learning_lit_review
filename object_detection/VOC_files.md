@@ -1,0 +1,30 @@
+
+
+```xml
+<object>
+    <name>person</name>
+    <bndbox>
+        <xmax>457</xmax>
+        <xmin>432</xmin>
+        <ymax>176</ymax>
+        <ymin>116</ymin>
+    </bndbox>
+    <difficult>0</difficult>
+    <occluded>0</occluded>
+    <pose>Rear</pose>
+    <truncated>0</truncated>
+</object>
+<object>
+    <name>person</name>
+    <bndbox>
+        <xmax>56</xmax>
+        <xmin>1</xmin>
+        <ymax>174</ymax>
+        <ymin>100</ymin>
+    </bndbox>
+    <difficult>0</difficult>
+    <occluded>1</occluded>
+    <pose>Right</pose>
+    <truncated>1</truncated>
+</object>
+```
